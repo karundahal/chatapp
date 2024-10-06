@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:untitled/screens/auth/loginscreen.dart';
 import 'package:untitled/screens/home_screen.dart';
 
+
+late Size mq;
 void main() {
   runApp(const MyApp());
 }
@@ -32,7 +35,7 @@ class MyApp extends StatelessWidget {
         )
 
       ),
-      home: HomeScreen(),
+      home: Loginscreen(),
     );
   }
 }
